@@ -1,0 +1,196 @@
+/*******************************************************************************************************************
+                        STYLE CSS - This page is contains the CSS part of the website
+*********************************************************************************************************************/
+
+.wrapper {	
+	margin-top: 80px;
+  	margin-bottom: 80px;
+}
+
+.form-signin {
+	max-width: 380px;
+	padding: 15px 35px 45px;
+	margin: 0 auto;
+	background-color: #fff;
+	border: 1px solid rgba(0,0,0,0.1);  
+}
+
+.form-control {
+	position: center;
+	font-size: 16px;
+	height: auto;
+	padding: 10px;
+
+	@include box-sizing(border-box);
+	&:focus {
+  	z-index: 2;
+	}
+}
+
+input[type="text"] {
+	margin-bottom: -1px;
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+}
+
+input[type="password"] {
+	margin-bottom: 20px;
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+}
+
+#contact-submit {
+	margin-bottom: 10px;
+}
+
+#title-contactForm {
+	text-align: center;
+	font-family: 'Arvo', serif;
+}
+
+#movie {
+	text-align: center;
+	font-size: 20px;
+}
+
+.navbar {
+	margin-bottom: 0px;
+}
+
+.nav {
+	font-size: 18px;
+}
+
+img.make-it-fit {
+	max-width: 100%;
+    max-height: 100%;
+}
+
+img.login-image {
+	max-width: 100%;
+    max-height: 100%;
+}
+
+.studio-ghibli {
+	position: absolute; 
+   	top: 50px;
+   	left: 35%;
+   	text-align: center;
+   	font-family: 'Montserrat', sans-serif;
+}
+
+.form-signin {
+	margin-bottom: 250px;
+}
+
+h1 {
+	text-align: center;
+}
+
+
+li.center {
+	text-align: center;
+}
+
+li.right {
+	float:right;
+}
+
+.panel-footer {
+	background-color: #555;
+    color: white;
+    padding: 15px;
+}
+
+.image { 
+   position: relative; 
+}
+
+.image-register{
+	position: relative;
+	max-width: 100%;
+    max-height: 100%;
+
+}
+
+.form-signin{
+	position: absolute; 
+   	top: 200px; 
+   	left: 100px; 
+   	width: 100%;
+   	opacity: 0.8;
+   	border-radius: 25px;
+}
+
+.form-signin-heading {
+	text-align: center;
+}
+
+h2 { 
+   position: absolute; 
+   top: 200px; 
+   left: 0; 
+   width: 100%;
+   text-align: center
+}
+
+footer {
+	background-color: #555;
+	color: white;
+	padding: 15px;
+	position: absolute;
+	width:100%;
+}
+
+li.logout {
+	position: absolute; 
+   	top: 10px; 
+   	right: 50px; 
+   	color: #0377bf;
+}
+
+.main-logo {
+	position: absolute;
+	top: 10px;
+}
+
+.label-login{
+	width:400px;
+}
+
+.label-register{
+	width:400px;
+}
+
+#logo-nav {
+	height: 40px;
+	width: auto;
+}
+
+#footer-title {
+	font-size: 18px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+}
+
+#modal-img{
+	height: 800px;
+    width: 500px;
+}
+
+.style-message{
+	text-align: center;
+}
+
+.modal {
+	display: none;
+}
+
+#image-modal {
+	height: 400px;
+    width: 300px;
+}
+
+#list-movie {
+	font-family: 'Arvo', serif;
+}
